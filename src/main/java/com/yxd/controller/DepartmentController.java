@@ -32,4 +32,12 @@ public class DepartmentController {
         List<Department> depts = departmentService.getDepts();
         return Msg.success().add("depts", depts);
     }
+    /**
+     * @Description 测试方法
+     * @Author yangxiaodong
+     * @Date 2021-03-09
+     **/
+    public void test() {
+        System.out.println("哈哈哈哈");
+    }
 }
